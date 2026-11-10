@@ -4,7 +4,7 @@ Touch SD 指纹卡的 macOS App。卡插在 Mac 的 SD 卡槽里，按指纹就�
 
 ## 下载安装
 
-1. 到 [Releases](https://github.com/huangguimin/touch_sd/releases) 下载最新的 `Touch SD.dmg`，打开后把 Touch SD 拖进“应用程序”。
+1. 到 [Releases](https://github.com/huangguimin/touch_sd/releases) 下载最新版本的 `Touch-SD-<版本>.dmg`，打开后把 Touch SD 拖进“应用程序”。
 2. 第一次打开时系统会提示无法验证开发者：App 没有经过 Apple 公证。打开“系统设置 > 隐私与安全性”，在页面下方点“仍要打开”。
 3. 插卡，按 App 的提示配对：核对卡上灯的颜色和 App 显示的一致。
 4. 在“指纹”页录入手指。滚动页面、自动键入和锁屏输入密码需要“辅助功能”权限，App 会引导你打开。

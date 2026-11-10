@@ -2,6 +2,9 @@
 
 Touch SD 指纹卡的 macOS App。卡插在 Mac 的 SD 卡槽里，按指纹就能打开加密保险箱、在终端里代替 sudo 密码、给 SSH 和 Git 签名、在锁屏界面输入登录密码，手指沿卡边滑动还能滚动网页、调音量。
 
+<p align="center"><img src="docs/images/touch-sd-in-macbook.jpg" width="420" alt="插在 MacBook Pro 右侧 SD 卡槽里的 Touch SD"></p>
+<p align="center">插在 MacBook Pro 右侧 SD 卡槽里的 Touch SD：中间是指纹传感器，两端是指示灯</p>
+
 ## 下载安装
 
 1. 到 [Releases](https://github.com/huangguimin/touch_sd/releases) 下载最新版本的 `Touch-SD-<版本>.dmg`，打开后把 Touch SD 拖进“应用程序”。
@@ -24,6 +27,13 @@ App 用的是不带开发者身份的签名，所以每次升级 App 后，系�
 | SSH 与确认 | 内置 SSH Agent，密钥由卡派生、取不出来，每次签名都要按一下；脚本可以用 `fingerconfirm "原因"` 要求按指纹 |
 | 滑动控制 | 滚动网页、调音量、视频快进、演示翻页、屏幕亮度、切换曲目 |
 | 设备 | 卡的身份和固件版本、在 App 里升级固件、恢复出厂、拔卡锁屏 |
+
+## 硬件
+
+<p align="center"><img src="docs/images/touch-sd-parts.jpg" width="560" alt="拆开的 Touch SD：电路板和外壳"></p>
+<p align="center">拆开的 Touch SD：带金手指的电路板、外壳和固定螺柱</p>
+
+卡的固件不开源。卡和 App 之间的通信协议是公开的，见下面的文档。
 
 ## 安全
 
